@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10;
+  padding: 0;
+}
+
+h1  {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  }
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+
+  text-align: center;
+
+  font-size: 25px;
+
+}
+
+p {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#h2 {
+  background-color: #FFFF00;
+  position: relative;
+  border: 2px solid black;
+  width: 30%;
+  height: 30px;
+  top: -10%;
+  left: 70%;
+}
+
+#h3 {
+  background-color: #008080;
+  position: relative;
+  border: 2px solid black;
+  width: 30%;
+  height: 30px;
+  top: -10%;
+  left: 70%;
+}
+
+#h4 {
+  background-color: #FA8072;
+  position: relative;
+  border: 2px solid black;
+  width: 30%;
+  height: 30px;
+  top: -10%;
+  left: 70%;
+}
+
+#div {
+  background-color: #C0C0C0;
+  padding: 10px 0px 0px 0px;
+  border: 2px solid black;
+  top: 60px;
+  left: 0px;
+}
+
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+ width: 50%;
+}
+  .col-md-12 {
+    width: 100%;
+  }
+  }
